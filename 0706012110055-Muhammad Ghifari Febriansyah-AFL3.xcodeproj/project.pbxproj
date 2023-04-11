@@ -14,6 +14,7 @@
 		044DE6ED29E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE6EC29E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3Tests.swift */; };
 		044DE6F729E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE6F629E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITests.swift */; };
 		044DE6F929E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE6F829E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITestsLaunchTests.swift */; };
+		044DE70629E4F45A00C4AA73 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE70529E4F45A00C4AA73 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		044DE6F229E4ECE000C4AA73 /* 0706012110055-Muhammad Ghifari Febriansyah-AFL3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110055-Muhammad Ghifari Febriansyah-AFL3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044DE6F629E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITests.swift; sourceTree = "<group>"; };
 		044DE6F829E4ECE000C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110055_Muhammad_Ghifari_Febriansyah_AFL3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044DE70529E4F45A00C4AA73 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				044DE6DD29E4ECDE00C4AA73 /* ContentView.swift */,
 				044DE6DF29E4ECDF00C4AA73 /* Assets.xcassets */,
 				044DE6E129E4ECDF00C4AA73 /* Preview Content */,
+				044DE70529E4F45A00C4AA73 /* CircleImage.swift */,
 			);
 			path = "0706012110055-Muhammad Ghifari Febriansyah-AFL3";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				044DE6DE29E4ECDE00C4AA73 /* ContentView.swift in Sources */,
 				044DE6DC29E4ECDE00C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3App.swift in Sources */,
+				044DE70629E4F45A00C4AA73 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
