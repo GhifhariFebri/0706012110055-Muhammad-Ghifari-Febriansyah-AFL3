@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct _706012110055_Muhammad_Ghifari_Febriansyah_AFL3App: App {
+    //
     @StateObject private var modelData = ModelData()
 
     var body: some Scene {

@@ -8,6 +8,7 @@
 import Foundation
 import CoreGraphics
 
+//Making Hexagon
 struct HexagonParameters {
     struct Segment {
         let line: CGPoint
@@ -17,6 +18,7 @@ struct HexagonParameters {
     
     static let adjustment: CGFloat = 0.085
 
+    //segment put into array
     static let segments = [
         Segment(
             line:    CGPoint(x: 0.60, y: 0.05),

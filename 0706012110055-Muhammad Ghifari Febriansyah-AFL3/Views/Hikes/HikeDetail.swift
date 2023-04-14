@@ -7,6 +7,7 @@ A view showing the details for a hike.
 
 import SwiftUI
 
+//Hiking detail page
 struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation
@@ -32,6 +33,7 @@ struct HikeDetail: View {
                             .foregroundColor(value.1 == dataToShow
                                 ? .gray
                                 : .accentColor)
+                        //Animation set to nil
                             .animation(nil)
                     }
                 }

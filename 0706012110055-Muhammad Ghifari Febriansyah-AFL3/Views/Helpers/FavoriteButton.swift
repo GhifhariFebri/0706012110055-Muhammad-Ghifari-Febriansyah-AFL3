@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FavoriteButton: View {
+    //boolean for if already favorite
     @Binding var isSet: Bool
 
     var body: some View {

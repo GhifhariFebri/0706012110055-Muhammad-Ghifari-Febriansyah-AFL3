@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//RotatedBadgeSymbol
 struct RotateBadgeSymbol: View {
     let angle: Angle
     
@@ -19,6 +20,7 @@ struct RotateBadgeSymbol: View {
 
 struct RotateBadgeSymbol_Previews: PreviewProvider {
     static var previews: some View {
+        //badge rotated 5 degrees
         RotateBadgeSymbol(angle: Angle(degrees: 5))
     }
 }

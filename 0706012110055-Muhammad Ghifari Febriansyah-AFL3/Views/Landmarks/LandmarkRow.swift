@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//setting each row for landmark
 struct LandmarkRow: View {
     var landmark: Landmark
 
@@ -29,7 +30,8 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var landmarks = ModelData().landmarks
-
+    
+    //for previews, using 1st and 2nd landmark
     static var previews: some View {
         Group {
             LandmarkRow(landmark: landmarks[0])

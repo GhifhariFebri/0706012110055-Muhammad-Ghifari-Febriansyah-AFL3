@@ -9,8 +9,10 @@ import SwiftUI
 
 struct Badge: View {
     var badgeSymbols: some View {
+        //repeat the symbol 8 time
         ForEach(0..<8) { index in
             RotateBadgeSymbol(
+                //the angle is repeated 8 time, each fitting for 360 degrees
                 angle: .degrees(Double(index) / Double(8)) * 360.0
             )
         }
