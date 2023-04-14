@@ -36,6 +36,7 @@ struct LandmarkList: View {
                     }
                 }
             }
+            //setting title for list
             .navigationTitle("Landmarks")
         }
     }
