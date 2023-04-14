@@ -19,6 +19,10 @@
 		044DE70F29E4F81C00C4AA73 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE70D29E4F81C00C4AA73 /* ModelData.swift */; };
 		044DE71029E4F81C00C4AA73 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE70E29E4F81C00C4AA73 /* Landmark.swift */; };
 		044DE71229E4F84600C4AA73 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 044DE71129E4F84600C4AA73 /* landmarkData.json */; };
+		044DE75A29E4FB0700C4AA73 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE75929E4FB0700C4AA73 /* LandmarkRow.swift */; };
+		047C7F5429E8E80B00120795 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C7F5329E8E80B00120795 /* LandmarkList.swift */; };
+		047C7F5629E8E89B00120795 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C7F5529E8E89B00120795 /* LandmarkDetail.swift */; };
+		047C7F5829E8EF1800120795 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C7F5729E8EF1800120795 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		044DE70D29E4F81C00C4AA73 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = "../../../../Downloads/BuildingListsAndNavigation (1)/Complete/Landmarks/Model/ModelData.swift"; sourceTree = "<group>"; };
 		044DE70E29E4F81C00C4AA73 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Landmark.swift; path = "../../../../Downloads/BuildingListsAndNavigation (1)/Complete/Landmarks/Model/Landmark.swift"; sourceTree = "<group>"; };
 		044DE71129E4F84600C4AA73 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		044DE75929E4FB0700C4AA73 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = "0706012110055-Muhammad Ghifari Febriansyah-AFL3/Views/Landmarks/LandmarkRow.swift"; sourceTree = SOURCE_ROOT; };
+		047C7F5329E8E80B00120795 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		047C7F5529E8E89B00120795 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		047C7F5729E8EF1800120795 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +150,8 @@
 		044DE70A29E4F7B100C4AA73 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				044DE70529E4F45A00C4AA73 /* CircleImage.swift */,
-				044DE70729E4F50500C4AA73 /* MapView.swift */,
+				047C7F5A29E8EF5B00120795 /* Landmarks */,
+				047C7F5929E8EF4300120795 /* Helpers */,
 				044DE6DD29E4ECDE00C4AA73 /* ContentView.swift */,
 			);
 			path = Views;
@@ -164,6 +172,26 @@
 				044DE70D29E4F81C00C4AA73 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		047C7F5929E8EF4300120795 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				044DE70529E4F45A00C4AA73 /* CircleImage.swift */,
+				044DE70729E4F50500C4AA73 /* MapView.swift */,
+				047C7F5729E8EF1800120795 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		047C7F5A29E8EF5B00120795 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				044DE75929E4FB0700C4AA73 /* LandmarkRow.swift */,
+				047C7F5329E8E80B00120795 /* LandmarkList.swift */,
+				047C7F5529E8E89B00120795 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,8 +328,12 @@
 				044DE6DE29E4ECDE00C4AA73 /* ContentView.swift in Sources */,
 				044DE70829E4F50500C4AA73 /* MapView.swift in Sources */,
 				044DE70F29E4F81C00C4AA73 /* ModelData.swift in Sources */,
+				047C7F5829E8EF1800120795 /* FavoriteButton.swift in Sources */,
+				047C7F5429E8E80B00120795 /* LandmarkList.swift in Sources */,
+				047C7F5629E8E89B00120795 /* LandmarkDetail.swift in Sources */,
 				044DE6DC29E4ECDE00C4AA73 /* _706012110055_Muhammad_Ghifari_Febriansyah_AFL3App.swift in Sources */,
 				044DE70629E4F45A00C4AA73 /* CircleImage.swift in Sources */,
+				044DE75A29E4FB0700C4AA73 /* LandmarkRow.swift in Sources */,
 				044DE71029E4F81C00C4AA73 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
